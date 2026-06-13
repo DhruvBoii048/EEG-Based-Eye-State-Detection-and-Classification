@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1g5SC4wZmQpXqkpsSYRrtUEcmnh5LQjCx
 """
 
-!pip install liac-arff
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -112,7 +111,6 @@ print("Data cleaning and preparation completed. Cleaned dataset saved as 'cleane
 """
 
 # Step 1: Install Required Libraries
-!pip install pandas numpy scipy
 
 # Step 2: Import Libraries
 import pandas as pd
