@@ -1,0 +1,25 @@
+# Generated datasets
+Dataset/augmented_data.arff
+Dataset/EEG_Eye_State_Feature_Engineered.arff
+Dataset/EEG_Eye_State_Normalized_MinMax.arff
+Dataset/EEG_Eye_State_Normalized_Robust.arff
+Dataset/EEG_Eye_State_Normalized_Standard.arff
+Dataset/EEG_Eye_State_Selected_Features.arff
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
