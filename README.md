@@ -60,7 +60,7 @@ Dataset/EEG Eye State.arff
 ## Project Structure
 
 ```text
-EyeStateClassification/
+EEG-Based-Eye-State-Detection-and-Classification/
 │
 ├── Dataset/
 │   ├── EEG Eye State.arff
@@ -147,7 +147,7 @@ This provides insight into which EEG channels contribute most significantly to e
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/EyeStateClassification.git
+git clone https://github.com/DhruvBoii048/EEG-Based-Eye-State-Detection-and-Classification.git
 cd EyeStateClassification
 ```
 
