@@ -24,10 +24,9 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
+# ---
 
-# --------------------------------------------------
 # CONFIGURATION
-# --------------------------------------------------
 
 INPUT_FILE = "EEG Eye State.arff"
 
@@ -35,10 +34,9 @@ FEATURE_ENGINEERED_FILE = "EEG_Eye_State_Feature_Engineered.arff"
 SELECTED_FEATURES_FILE = "EEG_Eye_State_Selected_Features.arff"
 NORMALIZED_FILE = "EEG_Eye_State_Normalized_MinMax.arff"
 
+# ---
 
-# --------------------------------------------------
 # UTILITY FUNCTIONS
-# --------------------------------------------------
 
 def save_arff(df, filename, relation="EEG_Eye_State"):
     """
@@ -62,10 +60,9 @@ def save_arff(df, filename, relation="EEG_Eye_State"):
         for _, row in df.iterrows():
             f.write(",".join(map(str, row.values)) + "\n")
 
+# ---
 
-# --------------------------------------------------
 # STEP 1: DATA CLEANING
-# --------------------------------------------------
 
 def clean_dataset(df):
 
@@ -86,10 +83,9 @@ def clean_dataset(df):
 
     return df
 
+# ---
 
-# --------------------------------------------------
 # STEP 2: FEATURE ENGINEERING
-# --------------------------------------------------
 
 def feature_engineering(df):
 
@@ -119,10 +115,9 @@ def feature_engineering(df):
 
     return df
 
+# ---
 
-# --------------------------------------------------
 # STEP 3: FEATURE SELECTION
-# --------------------------------------------------
 
 def feature_selection(df):
 
@@ -166,10 +161,9 @@ def feature_selection(df):
 
     return selected_df
 
+# ---
 
-# --------------------------------------------------
 # STEP 4: NORMALIZATION
-# --------------------------------------------------
 
 def normalize_dataset(df):
 
@@ -190,10 +184,9 @@ def normalize_dataset(df):
 
     return normalized_df
 
+# ---
 
-# --------------------------------------------------
 # MAIN PIPELINE
-# --------------------------------------------------
 
 def main():
 
