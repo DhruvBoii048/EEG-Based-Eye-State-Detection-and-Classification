@@ -5,6 +5,7 @@ Dataset/EEG_Eye_State_Normalized_MinMax.arff
 Dataset/EEG_Eye_State_Normalized_Robust.arff
 Dataset/EEG_Eye_State_Normalized_Standard.arff
 Dataset/EEG_Eye_State_Selected_Features.arff
+Dataset/datasetcleaning_og.py
 
 # Python
 __pycache__/
